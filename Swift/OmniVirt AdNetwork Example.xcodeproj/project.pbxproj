@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EFF0191F04CA5100F5F18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EFF0181F04CA5100F5F18A /* AppDelegate.swift */; };
+		07EFF01B1F04CA5100F5F18A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EFF01A1F04CA5100F5F18A /* ViewController.swift */; };
+		07EFF01E1F04CA5100F5F18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EFF01C1F04CA5100F5F18A /* Main.storyboard */; };
+		07EFF0201F04CA5100F5F18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EFF01F1F04CA5100F5F18A /* Assets.xcassets */; };
+		07EFF0231F04CA5100F5F18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EFF0211F04CA5100F5F18A /* LaunchScreen.storyboard */; };
+		07EFF02E1F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EFF02D1F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleTests.swift */; };
+		07EFF0391F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EFF0381F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleUITests.swift */; };
+		D56C4B30777C5AE4B68768D9 /* libPods-OmniVirt AdNetwork Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A45DF5FC30D314618FD8E1 /* libPods-OmniVirt AdNetwork Example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07EFF02A1F04CA5100F5F18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07EFF00D1F04CA5100F5F18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07EFF0141F04CA5100F5F18A;
+			remoteInfo = "OmniVirt AdNetwork Example";
+		};
+		07EFF0351F04CA5100F5F18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07EFF00D1F04CA5100F5F18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07EFF0141F04CA5100F5F18A;
+			remoteInfo = "OmniVirt AdNetwork Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A45DF5FC30D314618FD8E1 /* libPods-OmniVirt AdNetwork Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OmniVirt AdNetwork Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EFF0151F04CA5100F5F18A /* OmniVirt AdNetwork Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OmniVirt AdNetwork Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EFF0181F04CA5100F5F18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07EFF01A1F04CA5100F5F18A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07EFF01D1F04CA5100F5F18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07EFF01F1F04CA5100F5F18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07EFF0221F04CA5100F5F18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07EFF0241F04CA5100F5F18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EFF0291F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OmniVirt AdNetwork ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EFF02D1F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniVirt_AdNetwork_ExampleTests.swift; sourceTree = "<group>"; };
+		07EFF02F1F04CA5100F5F18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EFF0341F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OmniVirt AdNetwork ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EFF0381F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniVirt_AdNetwork_ExampleUITests.swift; sourceTree = "<group>"; };
+		07EFF03A1F04CA5100F5F18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF8C8F3526AA78E28B10315 /* Pods-OmniVirt AdNetwork Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmniVirt AdNetwork Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OmniVirt AdNetwork Example/Pods-OmniVirt AdNetwork Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4DB81E04C6B0F9343F8DD7A /* Pods-OmniVirt AdNetwork Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmniVirt AdNetwork Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OmniVirt AdNetwork Example/Pods-OmniVirt AdNetwork Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07EFF0121F04CA5100F5F18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56C4B30777C5AE4B68768D9 /* libPods-OmniVirt AdNetwork Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EFF0261F04CA5100F5F18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EFF0311F04CA5100F5F18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EFF00C1F04CA5100F5F18A = {
+			isa = PBXGroup;
+			children = (
+				07EFF0171F04CA5100F5F18A /* OmniVirt AdNetwork Example */,
+				07EFF02C1F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests */,
+				07EFF0371F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests */,
+				07EFF0161F04CA5100F5F18A /* Products */,
+				852E8A3C77AB272576DC4772 /* Pods */,
+				67BA3080170A9A0789F5EF19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07EFF0161F04CA5100F5F18A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EFF0151F04CA5100F5F18A /* OmniVirt AdNetwork Example.app */,
+				07EFF0291F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests.xctest */,
+				07EFF0341F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07EFF0171F04CA5100F5F18A /* OmniVirt AdNetwork Example */ = {
+			isa = PBXGroup;
+			children = (
+				07EFF0181F04CA5100F5F18A /* AppDelegate.swift */,
+				07EFF01A1F04CA5100F5F18A /* ViewController.swift */,
+				07EFF01C1F04CA5100F5F18A /* Main.storyboard */,
+				07EFF01F1F04CA5100F5F18A /* Assets.xcassets */,
+				07EFF0211F04CA5100F5F18A /* LaunchScreen.storyboard */,
+				07EFF0241F04CA5100F5F18A /* Info.plist */,
+			);
+			path = "OmniVirt AdNetwork Example";
+			sourceTree = "<group>";
+		};
+		07EFF02C1F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				07EFF02D1F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleTests.swift */,
+				07EFF02F1F04CA5100F5F18A /* Info.plist */,
+			);
+			path = "OmniVirt AdNetwork ExampleTests";
+			sourceTree = "<group>";
+		};
+		07EFF0371F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07EFF0381F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleUITests.swift */,
+				07EFF03A1F04CA5100F5F18A /* Info.plist */,
+			);
+			path = "OmniVirt AdNetwork ExampleUITests";
+			sourceTree = "<group>";
+		};
+		67BA3080170A9A0789F5EF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A45DF5FC30D314618FD8E1 /* libPods-OmniVirt AdNetwork Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852E8A3C77AB272576DC4772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB81E04C6B0F9343F8DD7A /* Pods-OmniVirt AdNetwork Example.debug.xcconfig */,
+				BDF8C8F3526AA78E28B10315 /* Pods-OmniVirt AdNetwork Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07EFF0141F04CA5100F5F18A /* OmniVirt AdNetwork Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EFF03D1F04CA5100F5F18A /* Build configuration list for PBXNativeTarget "OmniVirt AdNetwork Example" */;
+			buildPhases = (
+				FC55832707DF7D1E02CD2922 /* [CP] Check Pods Manifest.lock */,
+				07EFF0111F04CA5100F5F18A /* Sources */,
+				07EFF0121F04CA5100F5F18A /* Frameworks */,
+				07EFF0131F04CA5100F5F18A /* Resources */,
+				AA6EB74AB06A30710A510247 /* [CP] Embed Pods Frameworks */,
+				8EF9BF1D04F774FC0BC78C92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OmniVirt AdNetwork Example";
+			productName = "OmniVirt AdNetwork Example";
+			productReference = 07EFF0151F04CA5100F5F18A /* OmniVirt AdNetwork Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07EFF0281F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EFF0401F04CA5100F5F18A /* Build configuration list for PBXNativeTarget "OmniVirt AdNetwork ExampleTests" */;
+			buildPhases = (
+				07EFF0251F04CA5100F5F18A /* Sources */,
+				07EFF0261F04CA5100F5F18A /* Frameworks */,
+				07EFF0271F04CA5100F5F18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07EFF02B1F04CA5100F5F18A /* PBXTargetDependency */,
+			);
+			name = "OmniVirt AdNetwork ExampleTests";
+			productName = "OmniVirt AdNetwork ExampleTests";
+			productReference = 07EFF0291F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07EFF0331F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EFF0431F04CA5100F5F18A /* Build configuration list for PBXNativeTarget "OmniVirt AdNetwork ExampleUITests" */;
+			buildPhases = (
+				07EFF0301F04CA5100F5F18A /* Sources */,
+				07EFF0311F04CA5100F5F18A /* Frameworks */,
+				07EFF0321F04CA5100F5F18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07EFF0361F04CA5100F5F18A /* PBXTargetDependency */,
+			);
+			name = "OmniVirt AdNetwork ExampleUITests";
+			productName = "OmniVirt AdNetwork ExampleUITests";
+			productReference = 07EFF0341F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07EFF00D1F04CA5100F5F18A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = OmniVirt;
+				TargetAttributes = {
+					07EFF0141F04CA5100F5F18A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 35UAU2ZP8G;
+						ProvisioningStyle = Automatic;
+					};
+					07EFF0281F04CA5100F5F18A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 35UAU2ZP8G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07EFF0141F04CA5100F5F18A;
+					};
+					07EFF0331F04CA5100F5F18A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 35UAU2ZP8G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07EFF0141F04CA5100F5F18A;
+					};
+				};
+			};
+			buildConfigurationList = 07EFF0101F04CA5100F5F18A /* Build configuration list for PBXProject "OmniVirt AdNetwork Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07EFF00C1F04CA5100F5F18A;
+			productRefGroup = 07EFF0161F04CA5100F5F18A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07EFF0141F04CA5100F5F18A /* OmniVirt AdNetwork Example */,
+				07EFF0281F04CA5100F5F18A /* OmniVirt AdNetwork ExampleTests */,
+				07EFF0331F04CA5100F5F18A /* OmniVirt AdNetwork ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07EFF0131F04CA5100F5F18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EFF0231F04CA5100F5F18A /* LaunchScreen.storyboard in Resources */,
+				07EFF0201F04CA5100F5F18A /* Assets.xcassets in Resources */,
+				07EFF01E1F04CA5100F5F18A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EFF0271F04CA5100F5F18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EFF0321F04CA5100F5F18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EF9BF1D04F774FC0BC78C92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmniVirt AdNetwork Example/Pods-OmniVirt AdNetwork Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6EB74AB06A30710A510247 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmniVirt AdNetwork Example/Pods-OmniVirt AdNetwork Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC55832707DF7D1E02CD2922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07EFF0111F04CA5100F5F18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EFF01B1F04CA5100F5F18A /* ViewController.swift in Sources */,
+				07EFF0191F04CA5100F5F18A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EFF0251F04CA5100F5F18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EFF02E1F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EFF0301F04CA5100F5F18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EFF0391F04CA5100F5F18A /* OmniVirt_AdNetwork_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07EFF02B1F04CA5100F5F18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07EFF0141F04CA5100F5F18A /* OmniVirt AdNetwork Example */;
+			targetProxy = 07EFF02A1F04CA5100F5F18A /* PBXContainerItemProxy */;
+		};
+		07EFF0361F04CA5100F5F18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07EFF0141F04CA5100F5F18A /* OmniVirt AdNetwork Example */;
+			targetProxy = 07EFF0351F04CA5100F5F18A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07EFF01C1F04CA5100F5F18A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EFF01D1F04CA5100F5F18A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07EFF0211F04CA5100F5F18A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EFF0221F04CA5100F5F18A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07EFF03B1F04CA5100F5F18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07EFF03C1F04CA5100F5F18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07EFF03E1F04CA5100F5F18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DB81E04C6B0F9343F8DD7A /* Pods-OmniVirt AdNetwork Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35UAU2ZP8G;
+				INFOPLIST_FILE = "OmniVirt AdNetwork Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omnivirt.OmniVirt-AdNetwork-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		07EFF03F1F04CA5100F5F18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF8C8F3526AA78E28B10315 /* Pods-OmniVirt AdNetwork Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35UAU2ZP8G;
+				INFOPLIST_FILE = "OmniVirt AdNetwork Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omnivirt.OmniVirt-AdNetwork-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		07EFF0411F04CA5100F5F18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35UAU2ZP8G;
+				INFOPLIST_FILE = "OmniVirt AdNetwork ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omnivirt.OmniVirt-AdNetwork-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniVirt AdNetwork Example.app/OmniVirt AdNetwork Example";
+			};
+			name = Debug;
+		};
+		07EFF0421F04CA5100F5F18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35UAU2ZP8G;
+				INFOPLIST_FILE = "OmniVirt AdNetwork ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omnivirt.OmniVirt-AdNetwork-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniVirt AdNetwork Example.app/OmniVirt AdNetwork Example";
+			};
+			name = Release;
+		};
+		07EFF0441F04CA5100F5F18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 35UAU2ZP8G;
+				INFOPLIST_FILE = "OmniVirt AdNetwork ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omnivirt.OmniVirt-AdNetwork-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "OmniVirt AdNetwork Example";
+			};
+			name = Debug;
+		};
+		07EFF0451F04CA5100F5F18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 35UAU2ZP8G;
+				INFOPLIST_FILE = "OmniVirt AdNetwork ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omnivirt.OmniVirt-AdNetwork-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "OmniVirt AdNetwork Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EFF0101F04CA5100F5F18A /* Build configuration list for PBXProject "OmniVirt AdNetwork Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EFF03B1F04CA5100F5F18A /* Debug */,
+				07EFF03C1F04CA5100F5F18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EFF03D1F04CA5100F5F18A /* Build configuration list for PBXNativeTarget "OmniVirt AdNetwork Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EFF03E1F04CA5100F5F18A /* Debug */,
+				07EFF03F1F04CA5100F5F18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07EFF0401F04CA5100F5F18A /* Build configuration list for PBXNativeTarget "OmniVirt AdNetwork ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EFF0411F04CA5100F5F18A /* Debug */,
+				07EFF0421F04CA5100F5F18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07EFF0431F04CA5100F5F18A /* Build configuration list for PBXNativeTarget "OmniVirt AdNetwork ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EFF0441F04CA5100F5F18A /* Debug */,
+				07EFF0451F04CA5100F5F18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07EFF00D1F04CA5100F5F18A /* Project object */;
+}

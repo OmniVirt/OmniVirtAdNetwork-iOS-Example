@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OmniVirt_AdNetwork_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zwk-1i-rpk"/>
+                        <viewControllerLayoutGuide type="bottom" id="JLR-kd-a4k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XYm-5T-3M3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QQo-DJ-lTV">
+                                <rect key="frame" x="0.0" y="142" width="375" height="525"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CWT-4l-zIx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ZMp-nL-ZAB"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.0" green="0.84313725490196079" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="OmniVirt AdNetwork Example" id="nxf-TQ-JrK"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fY-pI-8LU">
+                                <rect key="frame" x="137" y="88" width="101" height="30"/>
+                                <state key="normal" title="Loading VR Ad"/>
+                                <connections>
+                                    <action selector="startAd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tMT-Re-rxl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CWT-4l-zIx" firstAttribute="leading" secondItem="XYm-5T-3M3" secondAttribute="leading" id="0lP-ql-e63"/>
+                            <constraint firstItem="QQo-DJ-lTV" firstAttribute="leading" secondItem="XYm-5T-3M3" secondAttribute="leading" id="51i-DJ-EII"/>
+                            <constraint firstAttribute="trailing" secondItem="CWT-4l-zIx" secondAttribute="trailing" id="aqH-UK-o9A"/>
+                            <constraint firstItem="7fY-pI-8LU" firstAttribute="top" secondItem="CWT-4l-zIx" secondAttribute="bottom" constant="24" id="gXO-uO-lkr"/>
+                            <constraint firstItem="CWT-4l-zIx" firstAttribute="top" secondItem="Zwk-1i-rpk" secondAttribute="bottom" id="hg1-oL-O3C"/>
+                            <constraint firstAttribute="bottom" secondItem="QQo-DJ-lTV" secondAttribute="bottom" id="hhk-fi-cbX"/>
+                            <constraint firstItem="QQo-DJ-lTV" firstAttribute="top" secondItem="7fY-pI-8LU" secondAttribute="bottom" constant="24" id="m3H-H3-Wku"/>
+                            <constraint firstAttribute="trailing" secondItem="QQo-DJ-lTV" secondAttribute="trailing" id="tZ1-Kd-hMt"/>
+                            <constraint firstItem="7fY-pI-8LU" firstAttribute="centerX" secondItem="XYm-5T-3M3" secondAttribute="centerX" id="zRh-a0-JS9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="log" destination="QQo-DJ-lTV" id="jgE-vD-7eI"/>
+                        <outlet property="startAdButton" destination="7fY-pI-8LU" id="E7L-Vp-Nsr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CCEC2314857FFE17CA56B7AD039E003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C82F699140C72DBF9B3E1825BCC11C4C /* Pods-OmniVirt AdNetwork Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FF0682B6DB70655AA51859C6B9DB5 /* Pods-OmniVirt AdNetwork Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02DA1965B2652BB23C72F175ACA006AE /* Pods-OmniVirt AdNetwork Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OmniVirt AdNetwork Example-frameworks.sh"; sourceTree = "<group>"; };
+		649FF0682B6DB70655AA51859C6B9DB5 /* Pods-OmniVirt AdNetwork Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OmniVirt AdNetwork Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C95AB93A33178F26C3DE512A469747F /* Pods-OmniVirt AdNetwork Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OmniVirt AdNetwork Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89DC7B260C9CADA5A3C0AC5AEADB8AEE /* Pods-OmniVirt AdNetwork Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OmniVirt AdNetwork Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8A7E0FCB2155F83132FCD8F64D7870 /* libPods-OmniVirt AdNetwork Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OmniVirt AdNetwork Example.a"; path = "libPods-OmniVirt AdNetwork Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8F39B13FE3D49BEDD40DF92D5C23B4 /* Pods-OmniVirt AdNetwork Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OmniVirt AdNetwork Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABA5384B506B1C0638622508F6FBACBA /* Pods-OmniVirt AdNetwork Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OmniVirt AdNetwork Example.release.xcconfig"; sourceTree = "<group>"; };
+		BED77E513ED8069F53D383BF5AF5D0E1 /* Pods-OmniVirt AdNetwork Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OmniVirt AdNetwork Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C10D16F354D5F91F48FA5D45E32B7A21 /* OmniVirtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OmniVirtSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6704A181AF4801C985F93B569F61674A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCEC2314857FFE17CA56B7AD039E003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BDF45362C742817B987B36718884A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C10D16F354D5F91F48FA5D45E32B7A21 /* OmniVirtSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B87F6095BB4FE611A3B2E6452384171 /* Pods-OmniVirt AdNetwork Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C95AB93A33178F26C3DE512A469747F /* Pods-OmniVirt AdNetwork Example-acknowledgements.markdown */,
+				9F8F39B13FE3D49BEDD40DF92D5C23B4 /* Pods-OmniVirt AdNetwork Example-acknowledgements.plist */,
+				649FF0682B6DB70655AA51859C6B9DB5 /* Pods-OmniVirt AdNetwork Example-dummy.m */,
+				02DA1965B2652BB23C72F175ACA006AE /* Pods-OmniVirt AdNetwork Example-frameworks.sh */,
+				89DC7B260C9CADA5A3C0AC5AEADB8AEE /* Pods-OmniVirt AdNetwork Example-resources.sh */,
+				BED77E513ED8069F53D383BF5AF5D0E1 /* Pods-OmniVirt AdNetwork Example.debug.xcconfig */,
+				ABA5384B506B1C0638622508F6FBACBA /* Pods-OmniVirt AdNetwork Example.release.xcconfig */,
+			);
+			name = "Pods-OmniVirt AdNetwork Example";
+			path = "Target Support Files/Pods-OmniVirt AdNetwork Example";
+			sourceTree = "<group>";
+		};
+		355CC1202969A28F54AD9ED951C65896 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B87F6095BB4FE611A3B2E6452384171 /* Pods-OmniVirt AdNetwork Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D221DCB6A436A45566C32E9DA9D83944 /* Pods */,
+				E3DE26762844E1B2E755A0081EF91CE2 /* Products */,
+				355CC1202969A28F54AD9ED951C65896 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D221DCB6A436A45566C32E9DA9D83944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF71199416B2F1106D97C75BCB1942 /* OmniVirtSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E3DE26762844E1B2E755A0081EF91CE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A7E0FCB2155F83132FCD8F64D7870 /* libPods-OmniVirt AdNetwork Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DF71199416B2F1106D97C75BCB1942 /* OmniVirtSDK */ = {
+			isa = PBXGroup;
+			children = (
+				09BDF45362C742817B987B36718884A8 /* Frameworks */,
+			);
+			name = OmniVirtSDK;
+			path = OmniVirtSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B396A546369629BB2CB85986D8301FAE /* Pods-OmniVirt AdNetwork Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97D4087E9381B23812294CA5CFEB92C /* Build configuration list for PBXNativeTarget "Pods-OmniVirt AdNetwork Example" */;
+			buildPhases = (
+				86ABB085C2CA41D2EF74979AE0739895 /* Sources */,
+				6704A181AF4801C985F93B569F61674A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OmniVirt AdNetwork Example";
+			productName = "Pods-OmniVirt AdNetwork Example";
+			productReference = 9F8A7E0FCB2155F83132FCD8F64D7870 /* libPods-OmniVirt AdNetwork Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E3DE26762844E1B2E755A0081EF91CE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B396A546369629BB2CB85986D8301FAE /* Pods-OmniVirt AdNetwork Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86ABB085C2CA41D2EF74979AE0739895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82F699140C72DBF9B3E1825BCC11C4C /* Pods-OmniVirt AdNetwork Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D3B8EC8B28A222A9EBFEF61EC6BFAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA5384B506B1C0638622508F6FBACBA /* Pods-OmniVirt AdNetwork Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B20A829DB981CCF214C504BEF0521E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED77E513ED8069F53D383BF5AF5D0E1 /* Pods-OmniVirt AdNetwork Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97D4087E9381B23812294CA5CFEB92C /* Build configuration list for PBXNativeTarget "Pods-OmniVirt AdNetwork Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B20A829DB981CCF214C504BEF0521E /* Debug */,
+				5D3B8EC8B28A222A9EBFEF61EC6BFAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
