@@ -18,11 +18,11 @@ class ViewController: UIViewController, VRAdDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         
         vrAd = VRAd.create(withAdSpaceID: 1, andViewController: self, andListener: self);
-        vrAd?.load();
+        vrAd?.loadAd();
     }
     
     deinit {
-        vrAd?.unload();
+        vrAd?.unloadAd();
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,8 +45,8 @@ class ViewController: UIViewController, VRAdDelegate {
             startAdButton.setTitle("Loading VR Ad", for: UIControlState.normal);
         }
         
-        if (andStatus == AdState.Completed) {
-            vrAd?.load();
+        if (vrAd!.isCompleted()) {
+            vrAd?.loadAd();
         }
         
         switch (andStatus) {
