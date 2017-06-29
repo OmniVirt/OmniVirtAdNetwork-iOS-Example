@@ -1,6 +1,6 @@
-# OmniVirtAdNetwork-iOS-Example
+# OmniVirt Ad Network: Monetize your VR app with seamless experience
 
-![Screenshot](https://github.com/OmniVirt/OmniVirtAdNetwork-Android-Example/blob/master/screenshotad.jpg?raw=true)
+![Screenshot](https://github.com/OmniVirt/OmniVirtAdNetwork-iOS-Example/raw/master/Screenshots/ss.jpg)
 
 **OmniVirt Ad Network** provides you ***an advertising platform*** enables developers and publishers to monetize their apps with engaging VR content in seamless user experience way.
 
@@ -8,26 +8,27 @@ Simply integrate the OmniVirt SDK into your iOS, Android or Web application and 
 
 Visit [omnivirt.com](https://omnivirt.com/) to create ad space to start monetizing. Contact us for more info at [contact@omnivirt.com](mailto:contact@omnivirt.com).
 
-## Add the OmniVirt SDK to your app
+# Add the OmniVirt SDK to your app
  
-### Using CocoaPods
+## Using CocoaPods
 
-CocoaPods is the most conventient way to add the OmniVirt SDK to your app. Check out www.cocoapods.org for more information.
+CocoaPods is the most conventient way to add the OmniVirt SDK to your app. Check out [www.cocoapods.org](www.cocoapods.org) for more information.
 
-1. Add the following line to your podfile
+- Add the following line to your podfile.
 ```
 pod 'OmniVirtSDK'
 ```
-2. Run this in your build directory to add
+- Install dependencies.
 ```
 $ pod install
 ```
+- Open the newly created `.xcworkspace`
 
-## Usage
+# Usage
 
 **OmniVirt Ad Network** can be integrated into your Android application in just few easy steps.
 
-### Get Started
+## Get Started
 
 1. **Sign up** for an account at [OmniVirt](www.omnivirt.com)
 2. **Create one or more Ad Spaces** for your app (for each Ad Space you can select different content and will get separate reporting)
@@ -36,7 +37,7 @@ $ pod install
 Now an Ad Space is ready. Next step is to enable the Ad on your application.
 
 
-### Initialize a `VRAd` instance
+## Initialize a `VRAd` instance
  
 First of all, create an `VRAd` instance with **AdSpace ID** provided by step above along with the callback listener.
 ```swift
@@ -66,7 +67,7 @@ class ViewController: UIViewController, VRAdDelegate {
 
 Ad will now be loaded **in the background** and once it is ready, `onAdStatusChanged` will be called with `Ready` state.
 
-### Show an Ad
+## Show an Ad
 
 If you want ad to start playing automatically, just add the following code snippet to the callback function.
 
@@ -82,7 +83,7 @@ func adStatusChanged(withAd ad: VRAd, andStatus adState: AdState) {
 
 And it's all ... done ! Ad will now be shown on the screen.
 
-### Reload an Ad
+## Reload an Ad
 
 **`loadAd(...)` is needed to be called once per ad served.** You can reload an ad to make it ready for the next session by implementing the code inside `onAdStatusChanged` like shown below.
 
@@ -97,7 +98,7 @@ func adStatusChanged(withAd ad: VRAd, andStatus adState: AdState) {
 ...
 ```
 
-### Callback
+## Callback
 
 When the state of VRAd has been changed, `onAdStatusChanged` callback function will be called with the new state in the `adState` parameter.
 
