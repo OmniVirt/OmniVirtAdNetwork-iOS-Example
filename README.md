@@ -12,7 +12,7 @@ Visit [omnivirt.com](https://omnivirt.com/) to create ad space to start monetizi
  
 ## Using CocoaPods
 
-CocoaPods is the most conventient way to add the OmniVirt SDK to your app. Check out [www.cocoapods.org](www.cocoapods.org) for more information.
+CocoaPods is the most conventient way to add the OmniVirt SDK to your app. Check out [www.cocoapods.org](https://www.cocoapods.org) for more information.
 
 - Add the following line to your podfile.
 ```
@@ -30,7 +30,7 @@ $ pod install
 
 ## Get Started
 
-1. **Sign up** for an account at [OmniVirt](www.omnivirt.com)
+1. **Sign up** for an account at [OmniVirt](https://www.omnivirt.com)
 2. **Create one or more Ad Spaces** for your app (for each Ad Space you can select different content and will get separate reporting)
 3. Keep the **AdSpace ID** assigned for further use.
 
